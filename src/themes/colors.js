@@ -1,5 +1,8 @@
 const palette = {
-  theme: { PRIMARY: '' },
+  theme: {
+    PRIMARY: '#7159c1',
+    SECONDARY: '#ab59c1',
+  },
 
   grayScale: {
     GREY_ONE: '#ffffff',
@@ -20,6 +23,7 @@ const palette = {
 
 const colors = {
   PRIMARY: palette.theme.PRIMARY,
+  SECONDARY: palette.theme.SECONDARY,
 
   GREY_ONE: palette.grayScale.GREY_ONE,
   GREY_TWO: palette.grayScale.GREY_TWO,

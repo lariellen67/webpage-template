@@ -2,10 +2,10 @@ import React from 'react'
 
 import { Container, Title } from './styled'
 
-export default function Main() {
+export default function Another() {
   return (
     <Container>
-      <Title>Hello Larissa</Title>
+      <Title>Profile</Title>
     </Container>
   )
 }

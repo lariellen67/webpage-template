@@ -2,10 +2,10 @@ import React from 'react'
 
 import { Container, Title } from './styled'
 
-export default function Another() {
+export default function Dashboard() {
   return (
     <Container>
-      <Title>This is another screen, enjoy it!</Title>
+      <Title>Dashboard</Title>
     </Container>
   )
 }

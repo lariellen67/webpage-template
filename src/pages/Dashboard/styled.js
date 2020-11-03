@@ -8,7 +8,6 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: ${colors.GREY_SIX};
 `
 
 export const Title = styled.h1`
