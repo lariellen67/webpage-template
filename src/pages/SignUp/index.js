@@ -2,8 +2,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import logo from '~/assets/logo.svg'
-
 export default function SignUp() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -16,7 +14,6 @@ export default function SignUp() {
   }
   return (
     <>
-      <img src={logo} alt="GoBarber" />
       <form>
         <input
           placeholder="Nome completo"

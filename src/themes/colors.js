@@ -1,8 +1,5 @@
 const palette = {
-  theme: {
-    PRIMARY: '#7159c1',
-    SECONDARY: '#ab59c1',
-  },
+  theme: { PRIMARY: '' },
 
   grayScale: {
     GREY_ONE: '#ffffff',

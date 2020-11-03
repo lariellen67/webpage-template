@@ -16,7 +16,8 @@ export default function RouteWrapper({
     return <Redirect to="/" />
   }
   if (signed && !isPrivate) {
-    return <Redirect to="/dashboard" />
+    return <Redirect to="/" />
+    // colocar a rota que deve ser redireciona ao login ser feito
   }
 
   const Layout = signed ? DefaultLayout : AuthLayout
